@@ -241,16 +241,6 @@ Earlier testing with:
 ✔ Fully documented with evidence  
 ✔ Cost-optimized infrastructure  
 
----
-
-# 👤 Author
-
-**Chetan Kumar**  
-DevOps Enthusiast  
-CI/CD | Docker | AWS | Infrastructure Automation  
-
----
-
 
 ## 📌 Infrastructure Decommissioning & Workflow Strategy
 
@@ -286,4 +276,16 @@ Since the infrastructure is decommissioned, a lightweight workflow is maintained
 - Ensure GitHub Actions remains green
 - Provide clean repository activity history
 
-This workflow runs on every commit and confirms repository status without triggering deployment steps.
+This workflow runs on every commit and confirms repository status without triggering deployment steps.  
+
+📍 This project was built for hands-on learning and production-style deployment practice.  
+
+---
+
+# 👤 Author
+
+**Chetan Kumar**
+DevOps Enthusiast
+CI/CD | Docker | AWS | Infrastructure Automation
+
+---
