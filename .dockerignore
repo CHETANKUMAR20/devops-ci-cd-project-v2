@@ -1,4 +1,17 @@
+# Exclude Git metadata
 .git
+
+# Exclude GitHub workflows and CI configuration
 .github
+
+# Exclude Python cache files
 __pycache__
 *.pyc
+*.pyo
+*.pyd
+
+# Exclude local documentation and screenshots (not needed in image)
+docs
+
+# Exclude local environment files if created later
+.env
