@@ -91,10 +91,7 @@ When code is pushed to the `main` branch:
 
 # 🐳 Immutable Image Tagging Strategy
 
-Instead of using the `latest` tag, images were tagged using:
-
-${{ github.sha }}
-
+Instead of using the `latest` tag, images were tagged using: `${{ github.sha }}`
 
 This ensures:
 
