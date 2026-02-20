@@ -276,7 +276,8 @@ Since the infrastructure is decommissioned, a lightweight workflow is maintained
 
 This workflow runs on every commit and confirms repository status without triggering deployment steps.  
 
-📍 This project was built for hands-on learning and production-style deployment practice.  
+
+`📍 This project was built for hands-on learning and production-style deployment practice.`
 
 ---
 
