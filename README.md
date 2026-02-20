@@ -27,6 +27,27 @@ This project demonstrates a production-style CI/CD pipeline using:
 
 ![Architecture Diagram](docs/architecture/00-ssm-based-ci-cd-architecture-diagram.png)
 
+## 📁 Project Structure
+devops-ci-cd-project-v2/
+│
+├── .dockerignore # # Prevents unnecessary files in Docker image
+├── Dockerfile # Container definition
+├── app.py # Flask application
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+│
+└── docs/
+├── architecture/
+│ └── 00-ssm-based-ci-cd-architecture-diagram.png
+│
+└── screenshots/
+├── CI/CD workflow evidence
+├── IAM configuration
+├── EC2 & security setup
+├── SSM execution logs
+└── Deployment proof
+
+
 ### 🔄 Pipeline Flow
 
 GitHub → GitHub Actions → Amazon ECR → AWS SSM → EC2 → Docker → Live Application
