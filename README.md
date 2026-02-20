@@ -253,8 +253,7 @@ This was done to:
 
 The main deployment workflow (`ci-cd.yml`) has been temporarily disabled by renaming it:
 
-ci-cd.yml → ci-cd.yml.disabled  
-
+`ci-cd.yml` was renamed to `ci-cd.yml.disabled`
 
 This ensures:
 - The pipeline does not attempt AWS deployments
@@ -263,8 +262,7 @@ This ensures:
 
 When needed, the workflow can be restored simply by renaming the file back to:
 
-ci-cd.yml  
-
+`ci-cd.yml`
 
 ---
 
