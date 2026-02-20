@@ -252,8 +252,38 @@ CI/CD | Docker | AWS | Infrastructure Automation
 ---
 
 
-## 📌 Infrastructure Status
+## 📌 Infrastructure Decommissioning & Workflow Strategy
 
-The infrastructure used for this demonstration was intentionally decommissioned after successful validation to prevent unnecessary AWS costs.
+After successfully validating the CI/CD pipeline and capturing deployment evidence, the AWS infrastructure (EC2, ECR, related networking resources) was intentionally decommissioned.
 
-The CI/CD workflow file has been temporarily disabled and can be re-enabled when required.
+This was done to:
+- Prevent unnecessary AWS costs  
+- Maintain a clean cloud environment  
+- Follow responsible cost management practices  
+
+The main deployment workflow (`ci-cd.yml`) has been temporarily disabled by renaming it:
+
+ci-cd.yml → ci-cd.yml.disabled  
+
+
+This ensures:
+- The pipeline does not attempt AWS deployments
+- No failing workflows appear in the repository
+- Infrastructure can be recreated and re-enabled when required
+
+When needed, the workflow can be restored simply by renaming the file back to:
+
+ci-cd.yml  
+
+
+---
+
+### 🟢 Repository Health Workflow
+
+Since the infrastructure is decommissioned, a lightweight workflow is maintained to:
+
+- Validate commits
+- Ensure GitHub Actions remains green
+- Provide clean repository activity history
+
+This workflow runs on every commit and confirms repository status without triggering deployment steps.
