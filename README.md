@@ -28,7 +28,7 @@ This project demonstrates a production-style CI/CD pipeline using:
 ![Architecture Diagram](docs/architecture/00-ssm-based-ci-cd-architecture-diagram.png)
 
 ## 📁 Project Structure
----
+```
 devops-ci-cd-project-v2/
 │
 ├── .dockerignore # # Prevents unnecessary files in Docker image
@@ -47,7 +47,7 @@ devops-ci-cd-project-v2/
 ├── EC2 & security setup
 ├── SSM execution logs
 └── Deployment proof
----
+```
 
 ### 🔄 Pipeline Flow
 
