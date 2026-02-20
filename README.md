@@ -252,3 +252,8 @@ CI/CD | Docker | AWS | Infrastructure Automation
 ---
 
 
+## 📌 Infrastructure Status
+
+The infrastructure used for this demonstration was intentionally decommissioned after successful validation to prevent unnecessary AWS costs.
+
+The CI/CD workflow file has been temporarily disabled and can be re-enabled when required.
