@@ -1,3 +1,9 @@
+![Repository Health](https://img.shields.io/badge/Repository%20Health-Passing-brightgreen)
+![Dockerized](https://img.shields.io/badge/Container-Docker-blue)
+![AWS](https://img.shields.io/badge/Cloud-AWS-orange)
+![Deployment](https://img.shields.io/badge/Deployment-SSM%20Based-success)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 # 🚀 DevOps CI/CD Project V2 – Production-Style Secure Deployment
 
 ## 📌 Project Overview
