@@ -304,5 +304,4 @@ This workflow runs on every commit and confirms repository status without trigge
 
 **Chetan Kumar**  
 Cloud & DevOps Engineer  
-CI/CD • Docker • AWS • Infrastructure Automation
 
