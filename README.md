@@ -298,12 +298,11 @@ This workflow runs on every commit and confirms repository status without trigge
 
 `📍 This project was built for hands-on learning and production-style deployment practice.`
 
----
 
-# 👤 Author
 
-**Chetan Kumar**
-DevOps Enthusiast
-CI/CD | Docker | AWS | Infrastructure Automation
+# 👤 Author. 
 
----
+**Chetan Kumar**. 
+DevOps Enthusiast. 
+CI/CD | Docker | AWS | Infrastructure Automation. 
+
