@@ -1,3 +1,4 @@
+![Repo Health Workflow](https://github.com/CHETANKUMAR20/devops-ci-cd-project-v2/actions/workflows/repo-health.yml/badge.svg)
 ![Repository Health](https://img.shields.io/badge/Repository%20Health-Passing-brightgreen)
 ![Dockerized](https://img.shields.io/badge/Container-Docker-blue)
 ![AWS](https://img.shields.io/badge/Cloud-AWS-orange)
