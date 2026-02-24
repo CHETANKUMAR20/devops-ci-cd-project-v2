@@ -30,7 +30,7 @@ This project demonstrates a production-style CI/CD pipeline using:
 
 ---
 
-# 🏗 Architecture
+# 🏗 Architecture Diagram
 
 ![Architecture Diagram](docs/architecture/00-ssm-based-ci-cd-architecture-diagram.png)
 
